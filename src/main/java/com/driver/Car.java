@@ -6,7 +6,7 @@ public class Car extends Vehicle {
     private int doors;
     private int gears;
     private boolean isManual;
-    private int currentGear;
+    int currentGear;
     private int seats;
 
     public Car(String name, int wheels, int doors, int gears, boolean isManual, String type, int seats) {
@@ -32,5 +32,25 @@ public class Car extends Vehicle {
         move(newSpeed, newDirection);
 
         System.out.println("changeSpeed method called - The speed is changed to: " + newSpeed + ", and the direction is changed to: " + newDirection + " degrees");
+    }
+
+
+    public int getDoors() {
+        return doors;
+    }
+    public int getWheels() {
+        return wheels;
+    }
+    public int getGears() {
+        return gears;
+    }
+    public int getSeats() {
+        return seats;
+    }
+    public String getType() {
+        return type;
+    }
+    public boolean isManual() {
+        return isManual;
     }
 }
