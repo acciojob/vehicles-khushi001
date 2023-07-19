@@ -48,7 +48,5 @@ public class F1 extends Car {
             }
         }
     }
-    public int getCurrentGear() {
-        return currentGear;
-    }
+
 }

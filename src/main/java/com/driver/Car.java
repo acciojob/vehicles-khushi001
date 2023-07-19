@@ -53,4 +53,7 @@ public class Car extends Vehicle {
     public boolean isManual() {
         return isManual;
     }
+    public int getCurrentGear() {
+        return currentGear;
+    }
 }
